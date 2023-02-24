@@ -1,5 +1,5 @@
 import './TitleBar.css';
-import logo from './ImageView//logo.png';
+import logo from './logo.png';
 function TitleBar() {
     return (
       <div id="TitleBar">
