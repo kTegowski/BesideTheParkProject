@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import HeaderBar from './HeaderBar/HeaderBar';
 import TitleBar from './TitleBar/TitleBar';
+import Episode from './HeaderBar/EpisodeCol/EpisodeCol';
 
 function App() {
   return (
@@ -9,9 +10,14 @@ function App() {
       <header className='header'>
         <HeaderBar />
       </header>
-      <TitleBar />
+      <div className='Title'>
+        <TitleBar />
+        <Episode />
+      </div>
+      
     </div>
   );
 }
 
 export default App;
+
