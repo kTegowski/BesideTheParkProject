@@ -1,0 +1,17 @@
+.HeaderBar{
+    vertical-align: middle;
+    position: absolute;
+    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #daed49;
+    color: black;
+
+    
+} 
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('Lato-Regular.ttf') format('truetype');
+}
