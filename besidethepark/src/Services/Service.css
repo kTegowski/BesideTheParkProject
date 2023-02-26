@@ -6,6 +6,7 @@
     font-family: 'Lato-Regular';
     src: url('Lato-Regular.ttf') format('truetype');
 }
+
 .EpisodeLIST{
     display: flex;
     text-align: left;
@@ -14,9 +15,12 @@
     padding-right: 5vmin;
     font-family: "Lato-Bold";
     /*justify-content: center;*/
+    
 }
+
 .EpisodeNumber{
     padding-right: 2vmin;
+    color: black;
 }
 .vl{
     border-left: 1px solid #d1d1d1;

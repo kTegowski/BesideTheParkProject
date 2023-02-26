@@ -1,0 +1,19 @@
+.BottomBar{
+    vertical-align: middle;
+    position: fixed;
+    height: auto;
+    top: 95%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #464646;
+    color: black;
+    font-size: 1vmin;
+    font-family: "Lato-Regular";
+    padding-bottom: 2vmin;
+    
+} 
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('Lato-Regular.ttf') format('truetype');
+}

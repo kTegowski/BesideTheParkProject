@@ -2,8 +2,18 @@
     text-align: center;
     position: fixed;
     display: inline;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     top: 10%;
     width: 100%;
+}
+#Episode{
+    display: inline;
+}
+.episode>:nth-child(even){
+    color: #00bdd4;
+}
+.episode>:nth-child(odd){
+    color: #bdd800;
 }
