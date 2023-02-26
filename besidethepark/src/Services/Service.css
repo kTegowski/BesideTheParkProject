@@ -1,0 +1,8 @@
+.EpisodeLIST{
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    /*justify-content: center;*/
+}

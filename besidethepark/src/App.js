@@ -11,12 +11,14 @@ function App() {
       </header>
       <div className='Title'>
         <TitleBar />
-
       </div>
+      <Episode />
       
     </div>
+    
   );
 }
+
 
 export default App;
 

@@ -2,15 +2,13 @@
     font-family: 'Lato-Regular';
     src: url('Lato-Regular.ttf') format('truetype');
 }
-#TitleBar{
+.TitleBar{
     position: fixed;
     display: flex;
-    width: 100vh;
-    max-height: 80vh;
-    max-width: 100vh;
+    justify-content: center;
     top: 10%;
     left:  0;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     /*text-align: center;
     background-color: white;
@@ -36,4 +34,5 @@
     width: 50%;
     justify-content: center;
     align-items: center;
+    display: flex;
 }

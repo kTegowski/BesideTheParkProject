@@ -2,7 +2,7 @@ import './TitleBar.css';
 import logo from './logo.png';
 function TitleBar() {
     return (
-      <div id="TitleBar">
+      <div className="TitleBar">
         <div className="description">
              Episode of the  <b> 4th </b>  season of the series 
         </div>
