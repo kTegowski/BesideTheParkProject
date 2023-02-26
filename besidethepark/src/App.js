@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import HeaderBar from './HeaderBar/HeaderBar';
 import TitleBar from './TitleBar/TitleBar';
-import Episode from './HeaderBar/EpisodeCol/EpisodeCol';
+import Episode from './TitleBar/EpisodeCol/EpisodeCol';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       </header>
       <div className='Title'>
         <TitleBar />
-        <Episode />
+
       </div>
       
     </div>

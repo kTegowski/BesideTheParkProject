@@ -3,32 +3,34 @@
     src: url('Lato-Regular.ttf') format('truetype');
 }
 #TitleBar{
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 100vh;
     max-height: 80vh;
     max-width: 100vh;
     top: 10%;
     left:  0;
-    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*text-align: center;
     background-color: white;
     color: black;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
-    align-items: center;
+    flex-wrap: wrap;
+    /*align-items: center;*/
 }
 .seriesName{
     
     color: #00bdd4;
     background-color: white;
-    text-align: center;
+    /*text-align: center;*/
     width: 100%;
 }
 .description{
     font-size: large;
     color: black;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 }
 .logo{
     width: 50%;
