@@ -1,8 +1,29 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('Lato-Regular.ttf') format('truetype');
+}
 .EpisodeLIST{
     display: flex;
     text-align: left;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: auto;
+    padding-right: 5vmin;
+    font-family: "Lato-Bold";
     /*justify-content: center;*/
+}
+.EpisodeNumber{
+    padding-right: 2vmin;
+}
+.vl{
+    border-left: 1px solid #d1d1d1;
+    height: 100;
+    padding-right: 2vmin;
+}
+.Date{
+    color: #d1d1d1;
+    font-size: smaller;
 }

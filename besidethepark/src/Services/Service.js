@@ -21,9 +21,11 @@ function EpisodeList() {
 
     return data.episodes.results.map(episode => (
         <div key={episode.id} className="EpisodeLIST">
-            <p>{episode.episode}</p>
-            <div className="EpisodeContent"><p>{episode.name}</p>
-            <p>{episode.air_date}</p></div>
+            <p className="EpisodeNumber">{episode.episode}</p>
+            <div class="vl"></div>
+            <div className="EpisodeContent">
+            <p className="Title">{episode.name}</p>
+            <p className="Date">{episode.air_date}</p></div>
             
         </div>
     ));

@@ -11,8 +11,9 @@ function App() {
       </header>
       <div className='Title'>
         <TitleBar />
+        <Episode />
       </div>
-      <Episode />
+      
       
     </div>
     
